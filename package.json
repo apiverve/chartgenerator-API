@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/chartgenerator",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Chart Generator is a simple tool for generating charts from data. It returns a URL to the generated image of the chart.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/chartgenerator-API.git"
   },
   "keywords": [
-    "chart generator","chart generation","chart generate","chart api","chart tool"
+    "chart generator", "chart generation", "chart generate", "chart api", "chart tool"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/chartgenerator-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/chartgenerator?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/chartgenerator?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.8.4"
   }
 }
